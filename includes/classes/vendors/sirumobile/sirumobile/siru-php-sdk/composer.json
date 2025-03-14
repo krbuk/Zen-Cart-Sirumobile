@@ -1,0 +1,45 @@
+{
+    "name": "sirumobile/siru-php-sdk",
+    "description": "PHP Software Development Kit for Siru Payment Gateway.",
+    "type": "library",
+    "keywords": [ "sdk", "siru", "mobile payment" ],
+    "homepage": "https://github.com/Sirumachinery/siru-php-sdk",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Siru Mobile",
+            "email": "dev@sirumobile.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "docs": "https://sirumobile.com/developers"
+    },
+
+    "require": {
+        "php": ">=7.1",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0|~7.0"
+    },
+
+    "suggest": {
+        "guzzlehttp/guzzle": "^6.1",
+        "symfony/http-client": "^5.0"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Siru\\": "src/Siru/"
+        }
+    },
+
+    "autoload-dev": {
+        "psr-4": {
+            "Siru\\Tests\\": "tests/"
+        }
+    },
+
+    "minimum-stability": "stable"
+}

@@ -1,0 +1,15 @@
+{
+    "type": "project",
+    "require": {
+        "ext-json": "*",
+        "sirumobile/siru-php-sdk": "^1.0",
+        "monolog/monolog": "^1.22",
+        "guzzlehttp/guzzle": "^6.0"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Siru\\DemoShop\\": "src/"
+        }
+    }
+}
